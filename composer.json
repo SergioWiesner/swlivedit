@@ -1,0 +1,23 @@
+{
+    "name": "sergiowiesner/swlivedit",
+    "description": "editor visual en realtime de html5, css3 y javascript",
+    "license": "MIT",
+    "type": "metapakage",
+    "keywords": ["laravel", "liveditor", "html5", "Css3", "Javascript", "Php"],
+    "authors": [
+        {
+            "name": "Sergio Wiesner",
+            "email": "webdev@codwelt.com"
+        }
+    ],
+    "homepage": "https://github.com/SergioWiesner/swlivedit",
+  	"autoload": {
+          "psr-4": {
+              "sw\\livedit\\": "src/"
+          }
+      },
+      "require": {
+  		"php": ">= 5.4"
+  	},
+    "minimum-stability": "dev"
+}
